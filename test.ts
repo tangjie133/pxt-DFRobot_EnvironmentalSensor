@@ -1,5 +1,6 @@
 // 在此处测试；当此软件包作为插件使用时，将不会编译此软件包。
-while (DFRobot_EnvironmentalSensor.beging(eEquipment.DEVICE_PID_BREAKOUT) == false) {
+/*
+while (DFRobot_EnvironmentalSensor.beging(eEquipment.DEVICE_PID_GRAVITY) == false) {
     serial.writeLine("Sensor initialize failed!!")
     basic.pause(500)
 }
@@ -17,4 +18,4 @@ basic.forever(function () {
     serial.writeLine("Elevation: " + DFRobot_EnvironmentalSensor.getElevation() + "m")
     serial.writeLine("---------------------------------------")
     basic.pause(500)
-})
+})*/
